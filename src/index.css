@@ -1,0 +1,39 @@
+body {
+  font: 20px "Century Gothic", Futura, sans-serif;
+}
+
+.game {
+  height: 200px;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.game-board {
+  height: 100px;
+  width: 90px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ol, ul {
+  padding-left: 30px;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.square {
+  height: 30px;
+  width: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.victoire {
+  background-color: red;
+  color: white;
+}
